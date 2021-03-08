@@ -1,0 +1,74 @@
+Format: 1.8
+Date: Sun, 07 Mar 2021 10:28:13 -0800
+Source: webkit2gtk
+Binary: gir1.2-javascriptcoregtk-4.0 gir1.2-webkit2-4.0 libjavascriptcoregtk-4.0-18 libjavascriptcoregtk-4.0-18-dbgsym libjavascriptcoregtk-4.0-bin libjavascriptcoregtk-4.0-bin-dbgsym libjavascriptcoregtk-4.0-dev libwebkit2gtk-4.0-37 libwebkit2gtk-4.0-37-dbgsym libwebkit2gtk-4.0-37-gtk2 libwebkit2gtk-4.0-dev libwebkit2gtk-4.0-doc webkit2gtk-driver webkit2gtk-driver-dbgsym
+Architecture: amd64 all
+Version: 2.31.90-1wsl
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Debian WebKit Maintainers <pkg-webkit-maintainers@lists.alioth.debian.org>
+Changed-By: Zero <zero@441.surf>
+Description:
+ gir1.2-javascriptcoregtk-4.0 - JavaScript engine library from WebKitGTK - GObject introspection
+ gir1.2-webkit2-4.0 - Web content engine library for GTK - GObject introspection data
+ libjavascriptcoregtk-4.0-18 - JavaScript engine library from WebKitGTK
+ libjavascriptcoregtk-4.0-bin - JavaScript engine library from WebKitGTK - command-line interpret
+ libjavascriptcoregtk-4.0-dev - JavaScript engine library from WebKitGTK - development files
+ libwebkit2gtk-4.0-37 - Web content engine library for GTK
+ libwebkit2gtk-4.0-37-gtk2 - Transitional dummy package
+ libwebkit2gtk-4.0-dev - Web content engine library for GTK - development files
+ libwebkit2gtk-4.0-doc - Web content engine library for GTK - documentation
+ webkit2gtk-driver - WebKitGTK WebDriver support
+Changes:
+ webkit2gtk (2.31.90-1wsl) UNRELEASED; urgency=medium
+ .
+   * Remove libseccomp-dev and bubblewrap dependencies
+   * Add -DENABLE_WAYLAND_TARGET=OFF -DENABLE_GLES2=ON
+Checksums-Sha1:
+ 9875346e0dd6747962457a26bc809120d5810f3d 60536 gir1.2-javascriptcoregtk-4.0_2.31.90-1wsl_amd64.deb
+ d71bdc98c84952886bfa85c3bd176054ed988410 111308 gir1.2-webkit2-4.0_2.31.90-1wsl_amd64.deb
+ d5702f9dc3e71bbc3734f917d9aa2321e0651bbc 27965196 libjavascriptcoregtk-4.0-18-dbgsym_2.31.90-1wsl_amd64.deb
+ 22bb4ddccf9344b0c72361908ada0dd590a08325 6011896 libjavascriptcoregtk-4.0-18_2.31.90-1wsl_amd64.deb
+ 02a5487bc7978b841589fdf8bcd396779b5dd117 1011844 libjavascriptcoregtk-4.0-bin-dbgsym_2.31.90-1wsl_amd64.deb
+ dc29b0bca005da520d8d9a475d2e120861099444 376144 libjavascriptcoregtk-4.0-bin_2.31.90-1wsl_amd64.deb
+ 201101538a1e4611d353f0944b09fd23701313bd 88264 libjavascriptcoregtk-4.0-dev_2.31.90-1wsl_amd64.deb
+ d9af35416b4ccf8f44bab551d19a68eb7dc7b87d 100637356 libwebkit2gtk-4.0-37-dbgsym_2.31.90-1wsl_amd64.deb
+ 8fd71256fdb4d32d2c322ebd334487deaf73acfa 55948 libwebkit2gtk-4.0-37-gtk2_2.31.90-1wsl_all.deb
+ 12c797058ab79c1e3671ff22bfd7edda39553224 13638444 libwebkit2gtk-4.0-37_2.31.90-1wsl_amd64.deb
+ a90bf15f46a92672e95c4009b71d6f0323a67cd9 291072 libwebkit2gtk-4.0-dev_2.31.90-1wsl_amd64.deb
+ f0853c4c2ea4820176c36831ed1cdf06ec94f37c 410340 libwebkit2gtk-4.0-doc_2.31.90-1wsl_all.deb
+ 4a174d9e33170ec8cc6481b3369426a46508dbca 1262720 webkit2gtk-driver-dbgsym_2.31.90-1wsl_amd64.deb
+ a49acfbdb999dbe29e9e41f59dbffb0eee2c8204 367072 webkit2gtk-driver_2.31.90-1wsl_amd64.deb
+ b2e513f2553813fca175635d76f51d2ff2770c8f 20718 webkit2gtk_2.31.90-1wsl_amd64.buildinfo
+Checksums-Sha256:
+ 65e63d3265d6600fc967b4cd18532fad313b5af7dfe94cc543f7d7e6907c62d0 60536 gir1.2-javascriptcoregtk-4.0_2.31.90-1wsl_amd64.deb
+ 532329f010852a96760fa7a7ca6d5ae1d8226fb41bf3692432370e52ed67f5f2 111308 gir1.2-webkit2-4.0_2.31.90-1wsl_amd64.deb
+ 8e790f15408404ddede9d693c0b8a8a76ba29660eb23a8d120a43319549f9837 27965196 libjavascriptcoregtk-4.0-18-dbgsym_2.31.90-1wsl_amd64.deb
+ 3343be02a4e185a91b67399e610a34d7e85ae5a9b35d0cfcebd14f6352055736 6011896 libjavascriptcoregtk-4.0-18_2.31.90-1wsl_amd64.deb
+ 27d7f7e5f254a08608de274fde1932a1d2f7992857cbf75af585feb77a6248dc 1011844 libjavascriptcoregtk-4.0-bin-dbgsym_2.31.90-1wsl_amd64.deb
+ 04784b91825e2fa52ff2cea3b3f9f53ced009dd8f399b72b17dcf7300dd2d448 376144 libjavascriptcoregtk-4.0-bin_2.31.90-1wsl_amd64.deb
+ d2cfedb99a32612b6e7a50eb5299d057de0328490dc41fcbf9495703ec3f8fcd 88264 libjavascriptcoregtk-4.0-dev_2.31.90-1wsl_amd64.deb
+ 74686e11a8e27f90a3d6a6f6c2f92f0b09837834ca396280a3ad28b3f60763c1 100637356 libwebkit2gtk-4.0-37-dbgsym_2.31.90-1wsl_amd64.deb
+ 87f5566d0c3a0dfbe862718ca2ceaf706fccf6c1d6227c318aaffa1961e23d9f 55948 libwebkit2gtk-4.0-37-gtk2_2.31.90-1wsl_all.deb
+ 99fac2bd39fb66b9d4ec77577d1aedab8b5caf23dcb077d5493347eed9e76ea8 13638444 libwebkit2gtk-4.0-37_2.31.90-1wsl_amd64.deb
+ 37281e3cc6bb95bb354fb901d1b06f830e884c715bdab017da6bccd8717e571e 291072 libwebkit2gtk-4.0-dev_2.31.90-1wsl_amd64.deb
+ 0191bddf2b71282f707ef435d388000340e393ff85ec908837bb09eb6b811a89 410340 libwebkit2gtk-4.0-doc_2.31.90-1wsl_all.deb
+ 9e6838f3f5d016bcc68760c80e88fb2983ab02f221379b6e88d61d6ec276736f 1262720 webkit2gtk-driver-dbgsym_2.31.90-1wsl_amd64.deb
+ ecc91d5dcbd0cf6693650c6d74cd7a8826f9db3c8430b8c3bfe7aad715f51057 367072 webkit2gtk-driver_2.31.90-1wsl_amd64.deb
+ 636486e6ad7429b3e5889c1140ebd15c129632b19726f17af05a613e71351fb5 20718 webkit2gtk_2.31.90-1wsl_amd64.buildinfo
+Files:
+ 517c721b622c7c8da252f816ad4505ed 60536 introspection optional gir1.2-javascriptcoregtk-4.0_2.31.90-1wsl_amd64.deb
+ 99ac3f551ec040daa3882fb6aef39c1b 111308 introspection optional gir1.2-webkit2-4.0_2.31.90-1wsl_amd64.deb
+ 7a668e850e57471ac94fd003724cba8a 27965196 debug optional libjavascriptcoregtk-4.0-18-dbgsym_2.31.90-1wsl_amd64.deb
+ ed3654c3c6123d67160aaa19395e140b 6011896 libs optional libjavascriptcoregtk-4.0-18_2.31.90-1wsl_amd64.deb
+ 387056f8199868569def39e0fb2bf2eb 1011844 debug optional libjavascriptcoregtk-4.0-bin-dbgsym_2.31.90-1wsl_amd64.deb
+ d1e3038c550e9431a63f5582d23e7eb9 376144 interpreters optional libjavascriptcoregtk-4.0-bin_2.31.90-1wsl_amd64.deb
+ cc7e91b869e07042d99be9ef52313226 88264 libdevel optional libjavascriptcoregtk-4.0-dev_2.31.90-1wsl_amd64.deb
+ edd6cafabb75b215b41db9cbf352ace8 100637356 debug optional libwebkit2gtk-4.0-37-dbgsym_2.31.90-1wsl_amd64.deb
+ 2742601666ef5245f244d011cbca4271 55948 oldlibs optional libwebkit2gtk-4.0-37-gtk2_2.31.90-1wsl_all.deb
+ c781e178d85f25518384489c9efcb8d4 13638444 libs optional libwebkit2gtk-4.0-37_2.31.90-1wsl_amd64.deb
+ 3cd7d77356f3b99cbf8660edda1e6383 291072 libdevel optional libwebkit2gtk-4.0-dev_2.31.90-1wsl_amd64.deb
+ 0712f77c369eded24c283b3cfe440a60 410340 doc optional libwebkit2gtk-4.0-doc_2.31.90-1wsl_all.deb
+ ea0140b581f01a8226056fc2343ca573 1262720 debug optional webkit2gtk-driver-dbgsym_2.31.90-1wsl_amd64.deb
+ a9d970ef1bea1e4554b1f74cd2ca6b1d 367072 web optional webkit2gtk-driver_2.31.90-1wsl_amd64.deb
+ 8ff0385ebf2d5c3136e3c6cb2034bd9e 20718 web optional webkit2gtk_2.31.90-1wsl_amd64.buildinfo
